@@ -1,0 +1,43 @@
+body {
+  color: #414141;               /* Dark gray */
+  background-color: #FFE5B4;    /* Light gray */
+  font-size: 18px;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.intro {
+  text-align: center;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.horiz {
+  display: inline;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+a:visited {
+  color: yellow;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
